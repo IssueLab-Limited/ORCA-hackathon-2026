@@ -1,4 +1,4 @@
-import { ArrowDown, Check, Pause, Play, Upload, X } from "lucide-react";
+import { ArrowDown, Award, Check, Pause, Play, Upload, X } from "lucide-react";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { HeroScene, webglAvailable } from "./heroScene";
 import { CHAPTERS, LOOP, STILL, chapterStill, heroAt, logAt, type HeroFrame, type LogLine } from "./timeline";
@@ -174,6 +174,7 @@ export function Hero({ actions, reduce, resume }: { actions: HeroActions; reduce
       <div className="lp-hero-inner">
         <div className="lp-hero-copy">
           {resume}
+          <p className="lp-award"><Award size={15} aria-hidden /> 3rd place, Startup track · Meta Global AI Developer Hackathon 2026</p>
           <p className="lp-eyebrow">ORCA · AI design coordination</p>
           <h1 id="lp-hero-title">Fixes, not just findings.<span>Every fix proven before you see it.</span></h1>
           <p className="lp-hero-lede">

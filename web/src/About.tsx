@@ -22,7 +22,7 @@ import "./landing/landing.css";
 export const GIRI_STRATEGY = "https://getitright.uk.com/reports/strategy-for-change";
 
 /** The repository: public, the hackathon's rule. */
-const REPO = "https://github.com/IssueLab-Inc/ORCA";
+const REPO = "https://github.com/IssueLab-Limited/ORCA-hackathon-2026";
 
 /**
  * The start page in the empty viewer: what ORCA is and can do, end to end, for people who have never heard of design
@@ -446,7 +446,8 @@ export function About({ start, onAbout, triageOpen = false }: {
           <p className="lp-foot-marks">
             IFC and BCF are trademarks of buildingSMART International, and Navisworks of Autodesk. Their logos, and the
             Model Context Protocol's, appear here only to name the formats and tools ORCA works with; ORCA is not
-            affiliated with or endorsed by them.
+            affiliated with or endorsed by them. ORCA won 3rd place in the Startup track of the Meta Global AI Developer
+            Hackathon 2026; it is not otherwise affiliated with or endorsed by Meta.
           </p>
         </div>
       </footer>

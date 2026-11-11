@@ -110,6 +110,9 @@
 .lp-hero-copy { pointer-events: auto; align-self: center; display: flex; flex-direction: column; gap: 22px; max-width: 590px; padding-bottom: 40px; }
 .lp-eyebrow { display: inline-flex; align-items: center; gap: 10px; margin: 0; font: 600 12px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--teal-2); }
 .lp-eyebrow::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--teal-2); box-shadow: 0 0 0 0 rgba(95, 227, 242, .6); animation: lp-beacon 2.4s infinite; }
+/* the hackathon result: a quiet pill above the eyebrow */
+.lp-award { align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; margin: 0 0 -8px; padding: 5px 12px 5px 10px; border-radius: 999px;
+  border: 1px solid rgba(240, 196, 92, .45); background: rgba(240, 196, 92, .1); font: 600 12px var(--mono); letter-spacing: .02em; color: #f5d48a; }
 @keyframes lp-beacon { 0% { box-shadow: 0 0 0 0 rgba(95, 227, 242, .55); } 70%, 100% { box-shadow: 0 0 0 10px rgba(95, 227, 242, 0); } }
 .lp-hero h1 { margin: 0; font-size: clamp(42px, 6cqw, 80px); line-height: .98; letter-spacing: -.045em; font-weight: 600; color: #fff; text-wrap: balance; }
 .lp-hero h1 span { display: block; margin-top: .28em; font-size: .46em; line-height: 1.12; letter-spacing: -.02em; font-weight: 500; color: var(--teal-2);

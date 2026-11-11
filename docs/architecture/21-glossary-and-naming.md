@@ -215,7 +215,7 @@ phase indicator follows actual events. Identity inventory checked 2026-10-30 aga
 | Agent link tokens | `orca_…` | `agents.Links` |
 | A screenshot | `orca-clash-<n>.png` / `orca-view.png` | `screenshot` in `App.tsx` |
 | The Modal app | `orca` | `deploy/modal_app.py` |
-| The GitHub repo | `ORCA`: `github.com/IssueLab-Inc/ORCA` (renamed Oct 31, owner decision; GitHub redirects the old URL) | `README.md` ("Run it") |
+| The GitHub repo | `ORCA-hackathon-2026`: `github.com/IssueLab-Limited/ORCA-hackathon-2026` (was `IssueLab-Inc/ORCA` from Oct 31; the org became `IssueLab-Limited` and the repo was renamed on Nov 11, after the result; owner decisions; GitHub redirects the old URLs, so no new repo in the org may take an old name) | `README.md` ("Run it") |
 
 ### Internal names kept on purpose
 

@@ -9,7 +9,9 @@
 > *The AI design coordinator for buildings and machines: where teams' 3D designs collide, Muse Spark proposes a real
 > edit to the model, ORCA proves it with geometry, and only fixes that pass reach you. Observe. Resolve. Check. Apply.*
 
-[![Meta Global AI Hackathon: Startup track](https://img.shields.io/badge/Meta_Global_AI_Hackathon-Startup_Track-7B2FBE?style=for-the-badge&logo=meta&logoColor=white&labelColor=555555)](docs/submission.md)
+🏆 **3rd place, Startup track: Meta Global AI Developer Hackathon 2026** (built Oct 27 – Nov 4, announced Nov 9).
+
+[![Meta Global AI Developer Hackathon: 3rd place, Startup track](https://img.shields.io/badge/Meta_Global_AI_Hackathon-3rd_Place_%C2%B7_Startup_Track-7B2FBE?style=for-the-badge&logo=meta&logoColor=white&labelColor=555555)](docs/submission.md)
 [![Meta Model API: 5 Muse models](https://img.shields.io/badge/Meta_Model_API-5_Muse_Models-0668E1?style=for-the-badge&logo=meta&logoColor=white&labelColor=555555)](docs/architecture/08-ai-models-prompts-and-spend.md)
 [![Open weights: Muse Spark Open](https://img.shields.io/badge/Open_Weights-Muse_Spark_Open-FF6F61?style=for-the-badge&labelColor=555555)](docs/architecture/08-ai-models-prompts-and-spend.md#the-models)
 [![Live demo on Modal](https://img.shields.io/badge/Live_Demo-Open_ORCA-2EA44F?style=for-the-badge&logo=modal&logoColor=white&labelColor=555555)](https://dodzikojo--orca-web.us-east.modal.run)
@@ -42,7 +44,8 @@ nothing new is hit. You review the options in 3D, accept one, and export the edi
 ORCA stands for its loop: **Observe** the clash, **Resolve** it with a proposed fix, **Check** the fix with geometry,
 **Apply** it to the model.
 
-Built for the Meta Global AI Developer Hackathon (Oct 27 – Nov 4, 2026) by IssueLab. **Northbank is a pre-existing
+Built for the Meta Global AI Developer Hackathon (Oct 27 – Nov 4, 2026) by IssueLab, where it won 3rd place in the
+Startup track. **Northbank is a pre-existing
 synthetic baseline asset used to demonstrate and evaluate ORCA; it was not created during the challenge.**
 ORCA's application code was written during the event. See [BUILT_DURING_HACKATHON.md](BUILT_DURING_HACKATHON.md)
 for the full distinction between new work, baseline data and third-party dependencies.
@@ -198,7 +201,7 @@ skip those initially if you only want to view models, check clashes and try fixe
 Run from the directory where you keep your projects:
 
 ```text
-git clone https://github.com/IssueLab-Inc/ORCA.git
+git clone https://github.com/IssueLab-Limited/ORCA-hackathon-2026.git
 cd ORCA
 uv python install 3.13
 uv sync --project server --locked --python 3.13
