@@ -107,7 +107,7 @@ Findings (Oct 27, details in spikes/README.md):
   tool prefix like `codex/` or `claude/`) and a PR; do not implement on `main` or merge without authorization. Run
   the relevant server tests, web build (`npm run build`, `npm test`) and product runtime checks before delivery.
 - Demo models: the eight public IFC/STEP files are already in `samples/`; ordinary local setup needs no private repo.
-  Generator-side evals and Navisworks packages still need `IssueLab-Inc/ClashWiseDemoModels` (its name is a legacy
+  Generator-side evals and Navisworks packages still need `IssueLab-Limited/ClashWiseDemoModels` (its name is a legacy
   identifier; don't repeat it elsewhere), cloned to `../demo-models`, or set `DEMO_MODELS` to that checkout. Keep
   the pre-existing Northbank baseline disclosure and preserve model bytes; see `samples/README.md`.
 - Deploy: Modal, public, with proposal caps (owner decision Oct 27). `MODAL_TOKEN_ID`/`MODAL_TOKEN_SECRET` come
